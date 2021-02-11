@@ -24,7 +24,7 @@ struct ContentView: View {
                     label: {
                         
                         // MARK: Row Item
-                        HStack (spacing: 20.0) {
+                        HStack (spacing: 19.5) {
                             Image(r.image)
                                 .resizable()
                                 .scaledToFill()
