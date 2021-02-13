@@ -24,7 +24,7 @@ struct RecipeDetailView: View {
                 VStack (alignment: .leading) {
                     Text("Ingredients")
                         .font(.headline)
-                        .padding([.bottom, .top], 5)
+                        .padding([.bottom, .top], 6)
                     
                     ForEach(recipe.ingredients, id:\.self) { item in
                         
