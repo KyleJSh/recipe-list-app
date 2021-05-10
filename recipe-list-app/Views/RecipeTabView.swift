@@ -16,7 +16,7 @@ struct RecipeTabView: View {
                 .tabItem {
                     
                     VStack {
-                        Image(systemName: "star.fill")
+                        Image(systemName: "star")
                         Text("Featured!")
                     }
                     
